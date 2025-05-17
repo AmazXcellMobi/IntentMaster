@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/gradient_background_teal"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/imageViewResult"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_celebration"
+        android:contentDescription="@string/celebration_image"
+        android:layout_marginBottom="24dp"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewMotivation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You're doing great! Keep going!"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSendBack"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Send Back"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="48dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/teal_700"
+        app:strokeColor="@color/teal_700"
+        app:strokeWidth="1.5dp"
+        app:cornerRadius="12dp"
+        android:elevation="4dp"
+        android:iconTint="@color/teal_700"
+        app:rippleColor="@color/teal_200"/>
+</LinearLayout>

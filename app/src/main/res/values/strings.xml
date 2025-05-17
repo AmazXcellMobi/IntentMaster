@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IntentMaster</string>
+    <string name="app_logo">App Logo</string>
+    <string name="welcome_title">Welcome to Our App</string>
+    <string name="enter_name_prompt">Please enter your name to continue</string>
+    <string name="name_hint">Your name</string>
+    <string name="enter_button">Continue</string>
+    <string name="celebration_image">Celebration</string>
+    <string name="greeting_title">Welcome aboard</string>
+    <string name="share_button">Share Greeting</string>
+</resources>
